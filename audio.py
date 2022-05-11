@@ -7,4 +7,4 @@ st.title('フィヨルドの風')
 audio_file = open('myaudio.mp3', 'rb')
 audio_bytes = audio_file.read()
 
-st.audio(audio_bytes, format=‘audio/ogg')
+st.audio(audio_bytes, format=‘audio/ogg’)
